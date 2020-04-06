@@ -21,9 +21,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         super.viewDidLoad()
         self.Motifs.delegate = self
         self.Motifs.dataSource = self
-        //self.DatePicker.date = Date()
         
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func generate(_ sender: UIButton) {
